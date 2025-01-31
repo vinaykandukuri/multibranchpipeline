@@ -9,13 +9,13 @@ pipeline {
 
         stage('sprint1') {
             steps{
-	       sh 'echo "This is Sprint1 Branch......"'
+	       sh 'echo "This is Sprint1 Branch !!!!!!!"'
 	    }
 	}
 
-        stage('Development') {
+        stage('Sprint') {
             steps{
-	       sh 'echo "This is Development Branch"'
+	       sh 'echo "This is Sprint Branch"'
 	    }
 	}
     }
