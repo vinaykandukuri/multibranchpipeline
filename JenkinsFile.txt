@@ -3,19 +3,19 @@ pipeline {
     stages {
         stage('Master') {
             steps{
-	       sh 'echo "This is Master Branch code"'
+	       sh 'echo " This is Master Branch code "'
 	    }
 	}
 
         stage('sprint1') {
             steps{
-	       sh 'echo "This is Sprint1 Branch code"'
+	       sh 'echo "This is Sprint1 Branch"'
 	    }
 	}
 
         stage('Development') {
             steps{
-	       sh 'echo "This is Development Branch code"'
+	       sh 'echo "This is Development Branch"'
 	    }
 	}
     }
